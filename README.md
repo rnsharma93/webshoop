@@ -39,7 +39,7 @@ All API request should send following headers parameters
 
 - Users login  
     GET => <base_url>/api/login?id={customer_id} //customer_id as 1,2,3 from customer table
-    # It will return token , this token should be send as Authorization: Bearer token in all following API requests  
+    ## It will return token , this token should be send as Authorization: Bearer token in all following API requests  
 
 - Create an order   
     POST => <base_url>/api/order  
@@ -67,8 +67,8 @@ All API request should send following headers parameters
 - All orders related to authorize customer  
     GET => <base_url>/api/orders  
 
-- Get order details
-    GET => <base_url>/api/order/{order_id}
+- Get order details  
+    GET => <base_url>/api/order/{order_id}  
 
 
 ## License
