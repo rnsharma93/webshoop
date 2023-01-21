@@ -142,9 +142,6 @@ class OrderController extends Controller
             return response()->json(["status" => 0, "message" => "Payment method not available"]);
         }
 
-        //add static payment method for now.
-        $payment_method = "superpay";
-
         $data['payment_method'] = $payment_method;
         $order = $this->orderRepository->update($order->id, $data);
 
