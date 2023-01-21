@@ -13,7 +13,7 @@ This project is just for demontration about REST API built on laravel.
 
 In any terminal/CMD follow the following steps
 
-- git clone https://github.com/rnsharma93/webshoop.git
+- git clone https://github.com/rnsharma93/webshop.git
 - cd webshoop
 - composer install
 - cp .env.example .env 
